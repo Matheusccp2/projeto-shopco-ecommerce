@@ -55,7 +55,16 @@ export default {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		fontFamily: {
+			'satoshi': ['Satoshi-Regular', 'sans-serif'],
+			'satoshi-light': ['Satoshi-Light', 'sans-serif'],
+			'satoshi-medium': ['Satoshi-Medium', 'sans-serif'],
+			'satoshi-bold': ['Satoshi-Bold', 'sans-serif'],
+			'integralcf': ['IntegralCF-Regular', 'sans-serif'],
+			'integralcf-bold': ['IntegralCF-Bold', 'sans-serif'],
+			'integralcf-medium': ['IntegralCF-Medium', 'sans-serif'],
+		},
   	}
   },
   plugins: [require("tailwindcss-animate")],
